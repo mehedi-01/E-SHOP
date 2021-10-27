@@ -1,5 +1,5 @@
 .container{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .orange-bg{
@@ -20,4 +20,48 @@
     padding: 9px 25px;
     cursor: pointer;
 
+}
+.cat1{
+    background-color: orange;
+    background-image: linear-gradient(to left, red , rgb(202, 202, 39));
+}
+.cat2{
+    background-color: palevioletred;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(211, 209, 191));
+
+}
+.cat3{
+    background-color: rebeccapurple;
+    background-image: linear-gradient(to left, rgb(0, 255, 170) , rgb(165, 37, 224));
+}
+.cat1, .cat2, .cat3{
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+.categories h1{
+    color: whitesmoke;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(197, 210, 211);
+    border-radius: 10px;
+}
+#buy{
+    height: 300px;
+    width: 900px;
+    text-align: center;
+    padding-top: 100px;
+   
+    
+    
+}
+.hello{
+    margin: 30px;
+}
+#text{
+    padding-top:30px;
+    text-align: center;
 }
